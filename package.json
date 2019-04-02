@@ -1,0 +1,20 @@
+{
+  "name": "homeexersize-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "server": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed",
+  "license": "DCI",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "mongoose": "^5.4.1",
+    "path": "^0.12.7"
+  }
+}

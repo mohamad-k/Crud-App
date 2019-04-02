@@ -1,0 +1,29 @@
+<table class="table table-hover table-dark">
+
+    <thead>
+        <tr>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Country</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>{{#each users}}
+            <td>{{firstname}}</td>
+            <td>{{lastname}}</td>
+            <td>{{email}}</td>
+            <td>{{country}}</td>
+            <td><a href="/delete/{{_id}}">delete</a></td>
+            <td><a href="/update/{{_id}}">update</a></td>
+
+        </tr>{{/each}}
+    </tbody>
+
+</table>
+<style>
+    th {
+        color: rgb(22, 206, 206)
+    }
+</style>
